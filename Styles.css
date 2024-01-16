@@ -1,0 +1,208 @@
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		.Main{
+			font-family:Calibri;
+		}
+		.heading_container{
+			-webkit-box-align: center;
+			align-items: center;
+			text-align: center;
+		}
+		.heading_container {
+			display: flex;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-ms-flex-align: start;
+		}
+		h2 {
+			display: block;
+			margin-block-start: 0.83em;
+			margin-block-end: 0.83em;
+			margin-inline-start: 0px;
+			margin-inline-end: 0px;
+			font-weight:bold;
+			font-family:Calibri;
+		}
+		.footer-10 {
+			background: #222222;
+			padding: 0 0 4em 0;
+			height:200px;
+		}
+		.right .modal-dialog {
+		  transition: transform .10s ease-out;
+		  position: fixed;
+		  margin: auto;
+		  height: 100%;
+		}
+		.modal.right .modal-content
+		{
+		  overflow-y: auto;
+		  border-radius: 0;
+		  border: none;
+		  height: 100%;
+		}
+		.right .modal-dialog {
+		  transform: translatex(50px);
+		  right: 0;
+		}
+		.card {
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		  max-width: 300px;
+		  margin: auto;
+		  text-align: center;
+		  font-family: arial;
+		}
+
+		.price {
+		  color: grey;
+		  font-size: 22px;
+		}
+
+		.card button {
+		  border: none;
+		  outline: 0;
+		  padding: 12px;
+		  color: white;
+		  background-color: #000;
+		  text-align: center;
+		  cursor: pointer;
+		  width: 100%;
+		  font-size: 18px;
+		}
+
+		.card button:hover {
+		  opacity: 0.7;
+		}
+		.card img{
+			height:262px;
+		}
+		#loading {
+			position: fixed;
+			width: 100%;
+			height: 90vh;
+			background: #fff url('loading.gif') no-repeat center center;
+			z-index: 9999;
+		}
+		.noMarginPaddingBorder{
+			margin:0 !important; 
+			padding:0 !important;
+			border: 0 !important;
+		}
+		.fa {
+		  padding: 20px;
+		  font-size: 30px;
+		  width: 60px;
+		  text-align: center;
+		  text-decoration: none;
+		  margin: 5px 2px;
+		}
+
+		.fa:hover {
+			opacity: 0.7;
+		}
+
+		.fa-facebook {
+		  background: #3B5998;
+		  color: white;
+		}
+		.fa-twitter {
+		  background: #55ACEE;
+		  color: white;
+		}
+
+		.fa-google {
+		  background: #dd4b39;
+		  color: white;
+		}
+
+		.fa-linkedin {
+		  background: #007bb5;
+		  color: white;
+		}
+
+		.fa-youtube {
+		  background: #bb0000;
+		  color: white;
+		}
+
+		.fa-instagram {
+		  background: #125688;
+		  color: white;
+		}
+
+		.fa-pinterest {
+		  background: #cb2027;
+		  color: white;
+		}
+		.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
